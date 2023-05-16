@@ -1,0 +1,43 @@
+.title > header{
+  padding: 25px 20px;
+  background-color: hsl(210, 12%, 15%);
+  color: white;
+  font-size: 28px;
+  height:120px;
+}
+
+.title__container {
+  width: 100%;
+  padding-top:50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color:#16161a;
+}
+
+.title__container > button {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 0 auto;
+  background-color: #7f5af0;
+  cursor: pointer;
+  margin-bottom:40px;
+}
+
+.title__container > button:hover{
+  background-color: hsl(210, 12%, 25%);
+}
+
+.todoApp__container > button:active{
+  background-color: hsl(210, 12%, 15%);
+}
+
+.todoApp__tasks{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
